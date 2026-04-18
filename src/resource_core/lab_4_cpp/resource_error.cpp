@@ -8,6 +8,7 @@
 
 namespace lab4::resource
 {
+    
 FileErrors::FileErrors(const std::string& message) : message{message} {}
 
 const char* FileErrors::what() const noexcept
